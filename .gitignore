@@ -29,3 +29,4 @@ npm-debug.log.*
 *.scss.d.ts
 
 MyApp-win32-x64
+dist
