@@ -1,5 +1,5 @@
 {
-  "name": "YourAppName",
+  "name": "webtesttwo",
   "version": "1.0.0",
   "description": "A simple Electron app",
   "main": "main.js",
@@ -8,15 +8,15 @@
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
   },
-  "author": "Your Name",
+  "author": "ScottMurphy",
   "license": "ISC",
   "devDependencies": {
     "electron": "^19.0.0",
     "electron-builder": "^23.0.0"
   },
   "build": {
-    "appId": "your.app.id",
-    "productName": "YourProductName",
+    "appId": "com.yalp780.webtesttwo",
+    "productName": "webtesttwo",
     "directories": {
       "output": "dist"
     },
@@ -28,6 +28,11 @@
     },
     "mac": {
       "target": "dmg"
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "yalp780",
+      "repo": "webtesttwo"
     }
   },
   "dependencies": {
